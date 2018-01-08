@@ -1,0 +1,5 @@
+locust --master --host=http://localhost:8080
+
+locust --slave --host=http://localhost:8080
+
+Web UI: http://127.0.0.1:8089
