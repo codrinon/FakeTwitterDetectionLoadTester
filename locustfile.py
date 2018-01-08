@@ -6,7 +6,7 @@ def tweets(l):
 
 
 class UserBehavior(TaskSet):
-    tasks = {tweets: 2}
+    tasks = {tweets: 1}
 
 
 class WebsiteUser(HttpLocust):
